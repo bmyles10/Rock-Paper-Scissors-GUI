@@ -1,5 +1,7 @@
 # RPS GUI
 
+Click [here](https://bmyles10.github.io/Rock-Paper-Scissors-GUI/) to run the app.
+
 
 Practice
 
