@@ -5,20 +5,37 @@
 <head>
     <meta charset="utf-8">
     <title>Rock Paper Scissors Game</title>
+    <link href="main.css" rel="stylesheet">
 </head>
 
 <body>
-    <center>
-        <div id="container">
-            <button id="rock">Rock</button>
-            <button id="paper">Paper</button>
-            <button id="scissors">Scissors</button>
-        </div>
+    <header id="header"></header>
+    <div id="container">
+        <main id="center" class="column">
+            <button id="rockb">
+                <img id="rock" src="images/Balanced_Rock.jpg">
+            </button>
+            <button id="paperb">
+                <img id="paper" src="images/paper.jpg">
+            </button>
+            <button id="scissorsb">
+                <img id="scissors" src="images/Scissors.jpg">
+            </button>
+        </main>
+        <nav id="left" class="column">
 
-        <div id="btn"></div>
-        <div id="score"></div>
-        <div id="hype"></div>
-    </center>
+        </nav>
+        <div id="right" class="column">
+
+        </div>
+        
+        <div id="footer-wrapper"></div>
+
+    </div>
+
+    <div id="btn"></div>
+    <div id="score">Choose Rock Paper or Scissors</div>
+    <div id="hype"></div>
 
 
     <script src="main.js"></script>
