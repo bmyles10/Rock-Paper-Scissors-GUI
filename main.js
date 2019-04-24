@@ -67,14 +67,16 @@ let playRound = (event) => {
         let clean = document.getElementById('container');
         clean.remove();
         let button = document.createElement("button");
-        button.textContent = "Restart Game"; let btn = document.getElementById('btn')
-        btn.appendChild(button); button.addEventListener("click", reloadWindow);
+        button.textContent = "Restart Game"; 
+        let btn = document.getElementById("btn")
+        btn.appendChild(button);
+        button.addEventListener("click", reloadWindow);
     }
 
 
     if (playScore == 2 && cpuScore == 2) {
         //Not assigning varaible so text doesn't keep popping up.
-        hype.textContent = `Oh Shit! We gotta close one here! NEXT POINT WINS!`
+        hype.textContent = `Oh Snap! We gotta close one here! NEXT POINT WINS!`
 
     } else if (playScore == 3) {
         let para = document.createElement("p");
@@ -89,7 +91,7 @@ let playRound = (event) => {
 
     } else if (cpuScore == 3) {
         let para = document.createElement("p");
-        para.innerText = "Damn Man, You lost";
+        para.innerText = "Tough break, You lost";
         let outcome = document.getElementById('score')
         outcome.appendChild(para);
         let clearHype = document.getElementById('hype');
